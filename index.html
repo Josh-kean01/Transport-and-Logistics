@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="Assets/Styles/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="bg-primary header container-fluid py-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 px-md-4 justify-content-between d-flex">
+        <div class="d-flex align-items-center">
+          <img src="Assets/Images/Logo.png" class="logo d-flex align-items-center w-75" alt="Logo" srcset="" />
+        </div>
+        <div class="col-sm-auto col-6">
+          <div class="row justify-content-end align-items-center gap-2">
+            <div class="col">
+              <div class="row">
+                <div class="col-2 border m-auto justify-content-center d-flex rounded-circle px-3 py-1">
+                  <i class="bi bi-clock mx-1"></i>
+                </div>
+                <div class="col-9 d-md-flex flex-column justify-content-center d-none">
+                  <div class="smaller text-light text-nowrap">
+                    Mon - Sat 9:00 - 18:00
+                  </div>
+                  <div class="smaller text-light text-nowrap">
+                    Sundays Closed
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-2 border m-auto justify-content-center d-flex rounded-circle px-3 py-1">
+                  <i class="bi bi-envelope mx-1"></i>
+                </div>
+                <div class="col-9 d-md-flex flex-column justify-content-center d-none">
+                  <div class="smaller text-light text-nowrap">Mail</div>
+                  <div class="smaller text-light text-nowrap">
+                    Contact@Logistics.com
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-2 border m-auto justify-content-center d-flex rounded-circle px-3 py-1">
+                  <i class="bi bi-phone mx-1"></i>
+                </div>
+                <div class="col-9 d-md-flex flex-column justify-content-center d-none">
+                  <div class="text-light text-nowrap smaller">Call Us</div>
+                  <div class="text-light text-nowrap smaller">
+                    (00) 112 365 489
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main style="
+      background: url(Assets/Images/hero-bg.png) center/cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    ">
+    <nav class="container-fluid sticky-top" style="
+          background-color: rgba(0, 0, 0, 0.25);
+          font-variant: small-caps;
+          backdrop-filter: blur(10px);
+        ">
+      <div class="row justify-content-center d-flex">
+        <div
+          class="col-lg-8 d-flex justify-content-between navbar py-0 navbar-expand-md px-md-3 px-2 flex-row flex-md-row-reverse">
+          <div class="d-flex w-100 justify-content-between justify-content-md-end">
+            <label for="check" class="icons navbar-toggler shadow-none outline-0 border-0 py-2"
+              data-bs-toggle="collapse" data-bs-target="#collapse">
+              <input type="checkbox" id="check" />
+              <i class="fs-1 bx bx-menu-alt-left" id="menu-icon"></i>
+              <i class="fs-1 bx bx-x" id="close-icon"></i>
+            </label>
+            <div class="d-flex">
+              <div class="nav align-items-center gap-3 ms-3 me-md-1 me-3 mx-xl-3">
+                <i class="text-light bi bi-instagram"></i>
+                <i class="text-light bi bi-facebook"></i>
+                <i class="text-light bi bi-twitter"></i>
+                <i class="text-light bi bi-linkedin"></i>
+              </div>
+              <button class="btn btn-light rounded-0" style="font-variant: inherit">
+                Request Quote
+              </button>
+            </div>
+          </div>
+          <div class="navbar-nav nav-underline collapse navbar-collapse" id="collapse">
+            <a class="nav-link text-light active" href="#">Home</a>
+            <div class="vr d-none d-md-block text-light my-2"></div>
+            <a class="nav-link text-light" href="#">About</a>
+            <div class="vr d-none d-md-block text-light my-2"></div>
+            <a class="nav-link text-light dropdown-toggle" href="#">Pages</a>
+            <div class="vr d-none d-md-block text-light my-2"></div>
+            <a class="nav-link text-light" href="#">Project</a>
+            <div class="vr d-none d-md-block text-light my-2"></div>
+            <a class="nav-link text-light" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid">
+      <div class="row py-5 justify-content-center">
+        <div class="col-lg-8">
+          <div class="row py-5">
+            <div class="col-md-8 col-lg-6 col-12">
+              <p class="text-light d-inline px-2 py-1" style="
+                    background: rgba(0, 0, 0, 0.25);
+                    border-left: 3px solid #ffbe34;
+                  ">
+                Logistics and Supply Chain Solutions
+              </p>
+              <h1 class="text-light h1 my-3">
+                Your Gateway
+                <br />
+                to any Destination
+                <br />
+                in the world
+              </h1>
+              <p class="text-light small">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In,
+                tenetur inventore? Molestiae culpa nostrum quisquam ducimus
+                repudiandae! Corrupti illo, magnam omnis mollitia assumenda
+                impedit delectus, excepturi quo fuga fugit ipsam?
+              </p>
+              <button class="btn btn-primary border-0">Explore More</button>
+            </div>
+            <div class="col-6"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-light">
+      <div class="row py-5 justify-content-center">
+        <div class="col-lg-8 py-5">
+          <div class="row row-gap-2">
+            <div class="col">
+              <p class="text-light d-inline px-2 py-1" style="
+                    background: rgba(0, 0, 0, 0.25);
+                    border-left: 3px solid #ffbe34;
+                  ">
+                What We Do
+              </p>
+              <h4 class="py-2">Safe & Reliable Cargo Solutions</h4>
+            </div>
+            <div class="col-lg-12">
+              <div class="row row-cols-1 row-cols-md-2 row-gap-4">
+                <div class="col">
+                  <div class="row gap-1">
+                    <div class="col-3">
+                      <img src="Assets/Icon/Icon1.png" alt="" srcset="" />
+                    </div>
+                    <div class="vr px-0 col-auto"></div>
+                    <div class="col">
+                      <h6>Sea Transport Services</h6>
+                      <p class="small">
+                        Following the quality of our services thus having
+                        gained trust of our many clients
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row gap-1">
+                    <div class="col-3">
+                      <img src="Assets/Icon/Icon2.png" alt="" srcset="" />
+                    </div>
+                    <div class="vr px-0 col-auto"></div>
+                    <div class="col">
+                      <h6>Warehousing Services</h6>
+                      <p class="small">
+                        Following the quality of our services thus having
+                        gained trust of our many clients
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row gap-1">
+                    <div class="col-3">
+                      <img src="Assets/Icon/Icon3.svg" alt="" srcset="" />
+                    </div>
+                    <div class="vr px-0 col-auto"></div>
+                    <div class="col">
+                      <h6>Air Fright Services</h6>
+                      <p class="small">
+                        Following the quality of our services thus having
+                        gained trust of our many clients
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row gap-1">
+                    <div class="col-3">
+                      <img src="Assets/Icon/Icon4.png" alt="" srcset="" />
+                    </div>
+                    <div class="vr px-0 col-auto"></div>
+                    <div class="col">
+                      <h6>Local Shipping Services</h6>
+                      <p class="small">
+                        Following the quality of our services thus having
+                        gained trust of our many clients
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid pt-md-2 pt-lg-5 pt-5" style="
+            background: url(Assets/Images/Photo.png) center/contain;
+            background-repeat: no-repeat;
+            background-position: top center;
+          ">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-11 col-md-9 mt-md-5">
+            <div class="row p-md-5 p-3 px-md-2 px-lg-4 bg-light mt-md-5 row-gap-md-5 row-gap-3">
+              <div class="col-md-6">
+                <p class="text-light d-inline px-2 py-1" style="
+                      background: rgba(0, 0, 0, 0.25);
+                      border-left: 3px solid #ffbe34;
+                    ">
+                  Why Us
+                </p>
+                <h5 class="py-2">
+                  We provide full range global logistics solutions
+                </h5>
+                <p class="small">
+                  Leverage agile frameworks to provide a robust synopsis for
+                  strategy foster collaborative thinking to further the
+                  overall value proposition.
+                </p>
+                <p class="small">
+                  Organically grow the holistic world view of disruptive
+                  innovation via workplace diversity and empowerment.
+                </p>
+                <ul style="list-style: none">
+                  <li class="my-2 fs-6 d-flex align-items-center">
+                    <img class="pe-2" src="Assets/Icon/list1.png" style="width: 10%" alt="" />
+                    Delivery on Time
+                  </li>
+                  <li class="my-2 fs-6 d-flex align-items-center">
+                    <img class="pe-2" src="Assets/Icon/list2.png" style="width: 10%" alt="" />
+                    Optimized Travel Cost
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 align-items-center d-flex">
+                <img src="Assets/Images/about_img.png" style="width: 100%" alt="" srcset="" />
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6 p-3 d-flex align-items-center border justify-content-evenly border-start-0">
+                    <h3 class="m-0">1294</h3>
+                    <li style="
+                          list-style-image: linear-gradient(
+                            #ffb629,
+                            #ffda56,
+                            #ffd7a6
+                          );
+                        "></li>
+                    <p class="m-0">Delivered Packages</p>
+                  </div>
+                  <div class="col-6 p-3 d-flex align-items-center border justify-content-evenly border-end-0">
+                    <h3 class="m-0">3594</h3>
+                    <li style="
+                          list-style-image: linear-gradient(
+                            #ffb629,
+                            #ffda56,
+                            #ffd7a6
+                          );
+                        "></li>
+                    <p class="m-0">Satisfied Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5">
+      <div class="container-fluid pb-md-2 pb-lg-5 pb-5" style="
+            background: url(Assets/Images/bg-gradient.png) center/contain;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+          ">
+        <div class="row justify-content-center">
+          <div class="col-lg-11">
+            <h4 class="text-center">
+              Transporting Across the World
+            </h4>
+            <div class="row py-4 row-gap-3">
+              <div class="col-6 col-lg col-md-4">
+                <div class="card text-bg-dark border-0">
+                  <img src="Assets/Images/project1.png" class="card-img" alt="...">
+                  <div class="card-img-overlay"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5), black);">
+                  </div>
+                  <div class="card-texts p-2">
+                    <h6 class="card-title">Liquid Transportation</h6>
+                    <p class="card-text"><small>Premium Tankers</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg col-md-4">
+                <div class="card text-bg-dark border-0">
+                  <img src="Assets/Images/project2.png" class="card-img" alt="...">
+                  <div class="card-img-overlay"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5), black);">
+                  </div>
+                  <div class="card-texts p-2">
+                    <h6 class="card-title">Packaging Solutions</h6>
+                    <p class="card-text"><small>Warehouse Management</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg col-md-4">
+                <div class="card text-bg-dark border-0">
+                  <img src="Assets/Images/project3.png" class="card-img" alt="...">
+                  <div class="card-img-overlay"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5), black);">
+                  </div>
+                  <div class="card-texts p-2">
+                    <h6 class="card-title">Contract Logistics</h6>
+                    <p class="card-text"><small>Road Transportation</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg col-md-4">
+                <div class="card text-bg-dark border-0">
+                  <img src="Assets/Images/project5.png" class="card-img" alt="...">
+                  <div class="card-img-overlay"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5), black);">
+                  </div>
+                  <div class="card-texts p-2">
+                    <h6 class="card-title">Warehouse and Distribution</h6>
+                    <p class="card-text"><small>Large Warehouse</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg col-md-4">
+                <div class="card text-bg-dark border-0">
+                  <img src="Assets/Images/project4.png" class="card-img" alt="...">
+                  <div class="card-img-overlay"
+                    style="background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5), black);">
+                  </div>
+                  <div class="card-texts p-2 ">
+                    <h6 class="card-title">Specialized Transport</h6>
+                    <p class="card-text"><small>Ocean Transports</small></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-dark border-0 outline-0 w-auto">More Work</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
