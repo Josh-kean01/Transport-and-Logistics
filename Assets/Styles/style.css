@@ -78,3 +78,13 @@ i {
 .card-text {
     color: #ffbe34;
 }
+
+.splide__pagination {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .splide__arrows.splide__arrows--ltr {
+        display: none;
+    }
+}
