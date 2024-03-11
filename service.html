@@ -10,9 +10,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="Assets/Styles/style.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <style>
+        li {
+            position: relative;
+        }
+
+        li::marker {
+            position: absolute !important;
+            top: 50%;
+        }
+    </style>
 </head>
 
 <body>
+
     <header class="bg-primary header container-fluid py-3">
         <div class="row justify-content-center">
             <div class="col-lg-8 px-md-4 justify-content-between d-flex">
@@ -68,9 +80,9 @@
             </div>
         </div>
     </header>
-    
+
     <main style="
-      background: url(Assets/Images/about-hero-bg.png) center/cover;
+      background: url(Assets/Images/hero-bg-service.png) center/cover;
       background-repeat: no-repeat;
       background-color: rgba(27, 35, 73, 0);
       
@@ -126,10 +138,11 @@
                       background: rgba(0, 0, 0, 0.25);
                       border-left: 3px solid #ffbe34;
                     ">
-                                About Us
+                                Services
                             </p>
                             <h1 class="text-light h1 my-3">
-                                About Our Logistics
+                                Our Logistics <br>
+                                Services
                             </h1>
 
 
@@ -141,45 +154,7 @@
         </section>
     </main>
 
-    <section class="container-fluid">
-        <div class="row justify-content-center py-5">
-            <div class="col-lg-10 col-md-8">
-                <div class="row">
-                    <div class="col-lg-6 ">
-                        <img src="Assets/Images/about-img1.png" style="width: 100%;" alt="" srcset="">
-                    </div>
-                    <div class="col-lg-6 p-xl-5">
-                        <p class="text-dark d-inline px-2 py-1"
-                            style="background: rgba(0, 0, 0, 0.15); border-left: 3px solid #ffbe34;">About Us
-                        </p>
-                        <h2 class="text-dark h2 my-2 ">
-                            Our Company Review
-                        </h2>
-                        <p class="text-dark small my-0">
-                            Leverage agile framework to provide a robust synopsis for strategy foster collaborative
-                            thinking to further the overall value proposition
-                        </p>
-                        <div class="my-2">
-                            <button class="btn px-2 px-md-3 btn-primary border-0">Our Approach</button>
-                            <button class="btn px-2 px-md-3 btn-light border">Our Approach</button>
-                            <button class="btn px-2 px-md-3 btn-light border">Our Approach</button>
-                        </div>
-                        <p class="text-dark small my-0">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In,
-                            tenetur inventore? Molestiae culpa nostrum quisquam ducimus
-                            repudiandae! Corrupti illo, magnam omnis mollitia assumenda
-                            impedit delectus, excepturi quo fuga fugit ipsam?
-                        </p>
-
-                        <button class="btn btn-primary border-0 my-3">Learn More</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid bg-light">
+    <section class="container-fluid bg-white">
         <div class="row justify-content-center py-5">
             <div class="col-lg-8 px-md-3">
                 <p class="text-dark d-inline px-2 py-1"
@@ -270,59 +245,59 @@
         </div>
     </section>
 
-    <section class="container-fluid">
-        <div class="row justify-content-center py-5">
-            <div class="col-lg-8 px-5 px-md-3">
+    <section class="container-fluid bg-light">
+        <div class="row py-5 justify-content-center">
+            <div class="col-lg-8 py-5 ">
                 <p class="text-dark d-inline px-2 py-1"
                     style="background: rgba(0, 0, 0, 0.15); border-left: 3px solid #ffbe34;">
-                    The Transporters
+                    Our Goodness
                 </p>
                 <h3 class="text-dark h2 my-2">
-                    Meet Expert Team
+                    How we Works
                 </h3>
+                <div class="row pt-3 px-2">
+                    <div class="col-md-6 py-3">
+                        <img src="Assets/Images/service-img1.png" class="" style="width: 120%; margin-left: -20%;"
+                            alt="">
+                    </div>
+                    <div class="col-md-6 p-3 d-flex flex-column justify-content-center">
+                        <div class="row py-lg-2">
+                            <div class="col-2">
+                                <img src="Assets/Icon/service-list1.png" alt="">
+                            </div>
+                            <div class="col-10">
+                                <h5 class="fw-medium">Warehousing Services</h5>
+                                <p class="small">
+                                    Leverage agile frameworks to provide a robust synopsis for strategy foster
+                                    collaborative thinking
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row py-lg-2 ">
+                            <div class="col-2">
+                                <img src="Assets/Icon/service-list2.png" alt="">
+                            </div>
+                            <div class="col-10">
+                                <h5 class="fw-medium">Safety and Quality</h5>
+                                <p class="small">
+                                    Leverage agile frameworks to provide a robust synopsis for strategy foster
+                                    collaborative thinking
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row py-lg-2">
+                            <div class="col-2">
+                                <img src="Assets/Icon/service-list3.png" alt="">
+                            </div>
+                            <div class="col-10">
+                                <h5 class="fw-medium">Care for Environmet</h5>
+                                <p class="small">
+                                    Leverage agile frameworks to provide a robust synopsis for strategy foster
+                                    collaborative thinking
+                                </p>
+                            </div>
+                        </div>
 
-                <div class="row py-4 row-gap-3">
-                    <div class="col-md">
-                        <div class="card">
-                            <img src="Assets/Images/team1.png" class="card-img-top" alt="...">
-                            <div class="card-body bg-primary position-relative">
-                                <div class="position-absolute end-0 p-1" style="background: #ffbe34; top: -20%;">
-                                    <i style="color: #091242;" class="m-1 bi bi-twitter"></i>
-                                    <i style="color: #091242;" class="m-1 bi bi-facebook"></i>
-                                    <i style="color: #091242;" class="m-1 bi bi-instagram"></i>
-                                </div>
-                                <h6 class="card-text text-light">Jessca Arrow</h6>
-                                <p class="card-text small text-light">Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <div class="card">
-                            <img src="Assets/Images/team3.png" class="card-img-top" alt="...">
-                            <div class="card-body bg-primary position-relative">
-                                <div class="position-absolute end-0 p-1" style="background: #ffbe34; top: -20%;">
-                                    <i style="color: #091242;" class="mx-1 bi bi-linkedin"></i>
-                                    <i style="color: #091242;" class="m-1 bi bi-twitter"></i>
-                                    <i style="color: #091242;" class="m-1 bi bi-facebook"></i>
-                                    <i style="color: #091242;" class="m-1 bi bi-instagram"></i>
-                                </div>
-                                <h6 class="card-text text-light">Kathleen Smith</h6>
-                                <p class="card-text small text-light">Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <div class="card">
-                            <img src="Assets/Images/team2.png" class="card-img-top" alt="...">
-                            <div class="card-body bg-primary position-relative">
-                                <div class="position-absolute end-0 p-1" style="background: #ffbe34; top: -20%;">
-                                    <i style="color: #091242;" class="m-1 bi bi-facebook"></i>
-                                    <i style="color: #091242;" class="m-1 bi bi-instagram"></i>
-                                </div>
-                                <h6 class="card-text text-light">Rebecca Tylor</h6>
-                                <p class="card-text text-light small">Designer</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -330,7 +305,181 @@
     </section>
 
 
+    <section class="container-fluid">
+        <div class="row">
+            <div
+                class="col-lg-3 col-6 d-flex align-items-center border border-start-0 justify-content-evenly p-3 px-lg-5 px-1">
+                <h3 class="m-0">24</h3>
+                <li style="
+                          list-style-image: linear-gradient(
+                            #ffb629,
+                            #ffda56,
+                            #ffd7a6
+                          );
+                        "></li>
+                <p class="m-0">Our Location</p>
+            </div>
+            <div class="col-lg-3 col-6 d-flex align-items-center border justify-content-evenly p-3 px-lg-5 px-1">
+                <h3 class="m-0">1294</h3>
+                <li style="
+                          list-style-image: linear-gradient(
+                            #ffb629,
+                            #ffda56,
+                            #ffd7a6
+                          );
+                        "></li>
+                <p class="m-0">Delivered Packages</p>
+            </div>
+            <div class="col-lg-3 col-6 d-flex align-items-center border justify-content-evenly p-3 px-lg-5 px-1">
+                <h3 class="m-0">3594</h3>
+                <li style="
+                          list-style-image: linear-gradient(
+                            #ffb629,
+                            #ffda56,
+                            #ffd7a6
+                          );
+                        "></li>
+                <p class="m-0">Satisfied Clients</p>
+            </div>
+            <div
+                class="col-lg-3 col-6 d-flex align-items-center border border-end-0 justify-content-evenly p-3 px-lg-5 px-1">
+                <h3 class="m-0">247+</h3>
+                <li style="
+                          list-style-image: linear-gradient(
+                            #ffb629,
+                            #ffda56,
+                            #ffd7a6
+                          );
+                        "></li>
+                <p class="m-0">Owned Vehicles</p>
+            </div>
+        </div>
+    </section>
 
+    <footer class="container-fluid bg-primary">
+        <section class="row justify-content-center">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-8" style="background: #1F2A69;">
+                <div class="row">
+                    <div class="col-lg-5 px-md-4 p-3 bg-primary">
+                        <img src="Assets/Images/footer-logo.png" style="width: 60%;" alt="" srcset="">
+                        <div class="p-4 pb-0">
+                            <span class="text-light">
+                                Leverage agile frameworks to provide a robust synopsis for strategy
+                                collaborative thinking to further the overall value proposition
+                            </span>
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-12 my-2">
+                                    <div class="row">
+                                        <div class="col-auto justify-content-center ms-2 rounded-circle d-flex p-2"
+                                            style="background: #1F2A69;">
+                                            <i class="bi bi-envelope mx-1"></i>
+                                        </div>
+                                        <div class="col d-flex flex-column justify-content-center">
+                                            <div class="smaller text-light text-nowrap">E-Mail</div>
+                                            <div class="small text-light text-nowrap">
+                                                Contact@Logistics.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12 my-2 mb-md-3 mb-0">
+                                    <div class="row">
+                                        <div class="col-auto justify-content-center ms-2 rounded-circle d-flex p-2"
+                                            style="background: #1F2A69;">
+                                            <i class="bi bi-envelope mx-1"></i>
+                                        </div>
+                                        <div class="col-auto d-flex flex-column justify-content-center">
+                                            <div class="smaller text-light text-nowrap">Call Us</div>
+                                            <div class="small text-light text-nowrap">
+                                                (00) 112 365 489
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-5 col-md-3 px-4 text-light p-3 pt-4">
+                        <span class="h5">Pages</span>
+                        <div class="py-4 row">
+                            <span class="text-light pb-2 d-inline-block">About Us</span>
+                            <span class="text-light pb-2 d-inline-block">Our Team</span>
+                            <span class="text-light pb-2 d-inline-block">Our Project</span>
+                            <span class="text-light pb-2 d-inline-block">Pricing</span>
+                            <span class="text-light pb-2 d-inline-block">Contact</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-5 col-md-3 px-4 text-light p-3 pt-4">
+                        <span class="h5">Utility</span>
+                        <div class="py-4 row">
+                            <span class="text-light pb-2 d-inline-block">Style Guide</span>
+                            <span class="text-light pb-2 d-inline-block">Changelog</span>
+                            <span class="text-light pb-2 d-inline-block">Licenses</span>
+                            <span class="text-light pb-2 d-inline-block">Protected</span>
+                            <span class="text-light pb-2 d-inline-block">Not Found</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-10 col-md-4 px-md-2 text-light p-md-3 px-4 pt-md-4">
+                        <span class="h5">Subscribe</span>
+                        <div class="py-md-4 py-1">
+                            <input type="email"
+                                class="bg-transparent form-control shadow-none rounded-0 border-secondary footer-input text-light"
+                                placeholder="Email Here*">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <button class="btn btn-light rounded-0 small px-1 w-100">
+                                        Send Now
+                                    </button>
+                                </div>
+                                <div class="col-6 d-flex justify-content-between align-items-center">
+                                    <i class="text-light bi bi-instagram"></i>
+                                    <i class="text-light bi bi-facebook"></i>
+                                    <i class="text-light bi bi-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2" style="background: #1F2A69;"></div>
+
+
+            <hr class="text-light mx-0">
+            <section class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row justify-content-lg-between justify-content-center flex-md-row-reverse pb-2">
+                        <div class="col-auto pb-2">
+                            <a class="text-secondary nav-link d-inline px-1" style="font-variant: small-caps;" href="#">
+                                Style Guide
+                            </a>
+                            <a class="text-secondary nav-link d-inline px-1" style="font-variant: small-caps;" href="#">
+                                Licences
+                            </a>
+                            <a class="text-secondary nav-link d-inline px-1" style="font-variant: small-caps;" href="#">
+                                ChangeLog
+                            </a>
+                            <a class="text-secondary nav-link d-inline px-1" style="font-variant: small-caps;" href="#">
+                                Password
+                            </a>
+
+                        </div>
+                        <div class="col-auto text-light text-center" style="font-variant: small-caps; font-size: large">
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            . All Rights Reserved. &mdash;
+                            <span class="text-nowrap">Designed by
+                                <a href="#" class="nav-link text-light d-inline">Josh Kean</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

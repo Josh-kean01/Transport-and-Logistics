@@ -44,6 +44,11 @@
     outline: #ffbe34;
 }
 
+.footer-input::placeholder {
+    font-size: .8rem;
+    color: grey;
+}
+
 
 
 /* .col-9 {
@@ -64,10 +69,6 @@ i {
 .smaller {
     font-size: x-small;
     vertical-align: center;
-}
-
-.col-2:hover {
-    background: #1b2349;
 }
 
 .card-texts {
