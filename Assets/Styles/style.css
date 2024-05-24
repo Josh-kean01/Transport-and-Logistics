@@ -101,4 +101,25 @@ i {
 
 .dropdown-menu {
     --bs-dropdown-min-width: auto;
+    margin-top: 0 !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: initial;
+}
+
+.project-link {
+    opacity: 0;
+    /* Start with opacity set to 0 */
+    transition: opacity 0.2s ease-in;
+    /* Transition the opacity property over 0.5 seconds with ease-in timing */
+}
+
+.projects:hover .project-link {
+    opacity: 1;
+    /* When .projects is hovered over, change opacity to 1 */
 }
