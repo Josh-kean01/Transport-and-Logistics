@@ -123,3 +123,7 @@ i {
     opacity: 1;
     /* When .projects is hovered over, change opacity to 1 */
 }
+
+.link:hover {
+    color: #ffbe34;
+}
