@@ -127,3 +127,15 @@ i {
 .link:hover {
     color: #ffbe34;
 }
+
+@media screen and (max-width:575px) {
+    .dropdown {
+        width: 100% !important;
+        padding-inline-end: .5rem !important;
+    }
+
+    .navbar-collapse .dropdown-menu {
+        background: none !important;
+        text-align: center !important;
+    }
+}
