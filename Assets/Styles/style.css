@@ -139,3 +139,7 @@ i {
         text-align: center !important;
     }
 }
+
+.dropdown-menu {
+    margin-left: -25%;
+}
