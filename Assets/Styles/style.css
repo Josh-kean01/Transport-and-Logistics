@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'imprima';
-    src: url('../fonts/imprima-regular-webfont.woff2') format('woff2'),
-        url('../fonts/imprima-regular-webfont.woff') format('woff');
+    src: url('../font/imprima-regular-webfont.woff2') format('woff2'),
+        url('../font/imprima-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
